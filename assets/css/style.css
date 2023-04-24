@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('/assets/font-face/MYRIADPRO-REGULAR.woff') format('woff');
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 1.6rem;
+
+    height: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-page {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 28.5rem 5rem;
+}
