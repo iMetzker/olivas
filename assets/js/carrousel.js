@@ -12,14 +12,14 @@ function move () {
     if (radio1.checked) {
         image.style.marginLeft = '0%';
     } else if (radio2.checked) {
-        image.style.marginLeft = '-17%';
+        image.style.marginLeft = '-17.3%';
     } else if (radio3.checked) {
-        image.style.marginLeft = '-34%';
+        image.style.marginLeft = '-34.3%';
     } else if (radio4.checked) {
-        image.style.marginLeft = '-51%';
+        image.style.marginLeft = '-51.3%';
     } else if (radio5.checked) {
-        image.style.marginLeft = '-68%';
+        image.style.marginLeft = '-68.3%';
     } else if (radio6.checked) {
-        image.style.marginLeft = '-85%';
+        image.style.marginLeft = '-85.3%';
     }
 }
