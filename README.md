@@ -32,3 +32,4 @@ O projeto consite na realização do teste de replicação de uma landing page e
 ## 💻 Demonstração
 
 // em curso
+

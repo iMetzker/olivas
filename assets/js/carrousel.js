@@ -23,3 +23,23 @@ function move () {
         image.style.marginLeft = '-85.3%';
     }
 }
+
+// CARROUSEL - CASES
+
+const slideContainer = [...document.querySelectorAll('.slide-cases-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+slideContainer.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+
