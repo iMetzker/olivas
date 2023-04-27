@@ -63,6 +63,14 @@ a {
     position: relative;
 }
 
+.section-end {
+    height: 43rem;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h5 {
     font-size: 2.5rem;
     color: #00374F;
@@ -690,14 +698,16 @@ button:hover {
     padding: 0;
     font-size: 1.3rem;
     font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
     color: #FFFFFF;
     z-index: 2;
 }
 
 .btn-m {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    padding: 10rem 0;
 
 }
 
@@ -750,3 +760,146 @@ button:hover {
 .slide-cases-container:-webkit-scrollbar {
     display: none;
   }
+
+  /* REGISTER */
+
+.dettail-end-line {
+    width: 36.4rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 0;
+    margin-top: 2.5rem;
+    left: -6rem;
+}
+
+.dettail-end-semicircle {
+    width: 40rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+    top: 16rem;
+}
+
+.dettail-end-line img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.contact-content .tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00374E;
+    padding: 0;
+}
+
+.contact-content .tittle h2 {
+    font-size: 3.5rem;
+}
+
+.contact-content .tittle b {
+    color: #36B6C7;
+}
+
+.contact-content .tittle .line {
+    background-color: #36B6C7;
+}
+
+.contact-content p {
+    font-size: 1.8rem;
+    color: #3D3D3D;
+    padding: 5rem 0;
+}
+
+.input-contact input::placeholder {
+    color: #D1D1D1;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.input-contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.input-contact input {
+    width: 36rem;
+    border: .2rem solid #E6E6E6;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    outline: none;
+}
+
+.input-contact input:focus {
+    border: .2rem solid #37B7C8;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check p {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.check input {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .7rem;
+}
+
+#contact .btn-reg {
+    padding-top: 2rem;
+}
+
+#contact .btn-reg button{
+    background-image: linear-gradient(to right,  #E46B88 ,#F390A8);
+    color: #FFFFFF;
+}
+
+#contact .cover {
+    background-image: linear-gradient(to right,  #37B7C8 ,#6DC7D4);
+    z-index: 2;
+}
+
+#contact .btn-reg p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+footer {
+    background-color: #022776;
+    color: #4B8AA4;
+    font-size: 1.3rem;
+    height: 8rem;
+    padding: 0 21rem 0 31rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
