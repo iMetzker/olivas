@@ -17,3 +17,16 @@ if (target.length) {
     animation();
   });
 }
+
+// OPEN MENU MOBILE
+
+function menuMobile() {
+  const nav = document.querySelector(".nav-bar");
+  nav.classList.toggle("active");
+
+  const mobileOpen = document.querySelector('.open');
+  mobileOpen.classList.toggle('close-button');
+
+  const mobileClose = document.querySelector('.closed');
+  mobileClose.classList.toggle('open-button');
+}
