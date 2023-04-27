@@ -47,6 +47,11 @@ a {
     min-height: 100vh;
     margin: 0 auto;
     padding: 5rem 28.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-full-green {
@@ -54,6 +59,11 @@ a {
     margin: 0 auto;
     background-color: #8ECB53;
     margin-top: 4.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-full {
@@ -89,6 +99,36 @@ h5 {
 .home-tittle b {
     font-size: 5rem;
 }
+
+/* ANIMATION */
+
+[data-animated] {
+    opacity: 0;
+    transition: .4s;
+}
+
+[data-animated="left"] {
+    transform: translate3d(-10rem, 0, 0);
+}
+
+[data-animated="right"] {
+    transform: translate3d(10rem, 0, 0);
+}
+
+[data-animated="top"] {
+    transform: translate3d(0, -30rem, 0);
+}
+
+[data-animated="top"] {
+    transform: translate3d(0, 30rem, 0);
+}
+
+[data-animated].animate {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+
 
 /* MENU */
 
@@ -861,8 +901,8 @@ button:hover {
 }
 
 .check input {
-    width: 2rem;
-    height: 2rem;
+    width: 1.6rem;
+    height: 1.6rem;
     border-radius: .7rem;
 }
 
@@ -886,6 +926,12 @@ button:hover {
     align-items: center;
     color: #FFFFFF;
     z-index: 3;
+    margin-left: -2rem;
+}
+
+.icon-register-btn img {
+    width: 5rem;
+    height: 4rem;
 }
 
 footer {

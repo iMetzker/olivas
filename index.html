@@ -34,6 +34,12 @@
                 </a>
             </div>
 
+            <div class="menu-mobile-lines" onclick="menuMobile ()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+
             <nav>
                 <ul>
                     <li>
@@ -113,10 +119,10 @@
         <div class="posts-content">
 
             <div class="main-post">
-                <div class="picture-post">
+                <div class="picture-post" data-animated="left">
                     <img src="./assets/img/main-post.png" alt="Ilustração para Posts">
                 </div>
-                <div class="main-post-content">
+                <div class="main-post-content" data-animated="left">
                     <h4>Tecnologia</h4>
                     <p class="data">11/11/2022</p>
                     <h2>Contando com a tecnologia para o treinamento de especialistas no atendimento</h2>
@@ -126,10 +132,10 @@
             </div>
 
             <div class="other-posts">
-                <h3>Outras postagens:</h3>
+                <h3 data-animated="left">Outras postagens:</h3>
                 <hr>
                 <div class="other-posts-summary">
-                    <div class="other-posts-content">
+                    <div class="other-posts-content" data-animated="left">
                         <h4 class="exp">CUSTOMER EXPERIENCE</h4>
                         <h5>Feedback de clientes: transforme tudo em dados e obtenha melhores resultados</h5>
                         <p class="data">11/11/2022</p>
@@ -137,7 +143,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium a doloribus fugiat dicta hic maiores veniam tempora quibusdam eveniet iure, consequatur est quas blanditiis facere officia quos culpa neque!
                         </p>
                     </div>
-                    <div class="other-posts-content">
+                    <div class="other-posts-content" data-animated="right">
                         <hr>
                         <h4>TECNOLOGIA</h4>
                         <h5>Chatbot cognitivo: o que é e como pode ajudar?</h5>
@@ -146,7 +152,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium a doloribus fugiat dicta hic maiores veniam tempora quibusdam eveniet iure, consequatur est quas blanditiis facere officia quos culpa neque!
                         </p>
                     </div>
-                    <div class="other-posts-content">
+                    <div class="other-posts-content" data-animated="left">
                         <hr>
                         <h4 class="exp">CUSTOMER EXPERIENCE</h4>
                         <h5>Atendimento ao cliente: quais as expectativas da Geração Millenials?</h5>
@@ -155,7 +161,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium a doloribus fugiat dicta hic maiores veniam tempora quibusdam eveniet iure, consequatur est quas blanditiis facere officia quos culpa neque!
                         </p>
                     </div>
-                    <div class="other-posts-content">
+                    <div class="other-posts-content" data-animated="right">
                         <hr>
                         <h4 class="exp">CUSTOMER EXPERIENCE</h4>
                         <h5>Open Banking: o sucesso do sistema no Brasil</h5>
@@ -204,11 +210,11 @@
             <div class="news-container">
 
                 <div class="tittle">
-                    <h2>Principais notícias</h2>
-                    <div class="line"></div>
+                    <h2 data-animated="left">Principais notícias</h2>
+                    <div class="line" data-animated="right"></div>
                 </div>
 
-                <div class="news-content">
+                <div class="news-content" data-animated="left">
 
                     <div class="other-news">
 
@@ -239,7 +245,7 @@
                             </a>
                         </div>
 
-                        <div class="more">
+                        <div class="more" data-animated="bottom">
                             <button type="button">
                                 <span class="cover"></span>
                                 <p>Ver mais</p>
@@ -248,7 +254,7 @@
                         
                     </div>
 
-                    <div class="main-news">
+                    <div class="main-news" data-animated="left">
                     
                         <div class="carrousel-container">
 
@@ -352,8 +358,8 @@
     <section id="cases" class="section-full">
 
         <div class="tittle">
-            <h2>Cases</h2>
-            <div class="line"></div>
+            <h2 data-animated="left">Cases</h2>
+            <div class="line" data-animated="right"></div>
         </div>
 
         <div class="slide-cases">
@@ -493,8 +499,8 @@
         
             <div class="contact-content">
                 <div class="tittle">
-                        <h2>Receba <b>nossas novidades</b></h2>                   
-                    <div class="line"></div>
+                        <h2 data-animated="left">Receba <b data-animated="left">nossas novidades</b></h2>                   
+                    <div class="line" data-animated="right"></div>
                 </div>
                 <p>Quer receber conteúdos exclusivos no seu e-mail?</p>
 
@@ -514,7 +520,7 @@
                         <button type="button">
                             <span class="cover"></span>
                             <p>
-                            <img src="./assets/img/icone mais.png" alt="">
+                                <img src="./assets/img/icone mais.png" alt="">
                             Cadastrar
                             </p>
                         </button>
@@ -547,6 +553,7 @@
         </p>
             
     </footer>
+    <script src="./assets/js/main.js"></script>
     <script src="./assets/js/carrousel.js"></script>
     <script src="./assets/js/tittle.js"></script>
 </body>
