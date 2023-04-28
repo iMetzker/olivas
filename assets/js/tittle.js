@@ -17,9 +17,6 @@ for (let i = 1; i < 100; i++) {
     changedTittle('Tudo sobre', i);
     changedTittleDettail('Tecnologia',i);
     i++;
-    changedTittle('Tendências do mundo', i);
-    changedTittleDettail('Tech',i);
-    i++;
     changedTittle('Inovações', i);
     changedTittleDettail('em Alta',i);
     i++;

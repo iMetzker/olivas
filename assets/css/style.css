@@ -24,6 +24,7 @@ html {
 body {
     overflow-x: hidden;
     position: relative;
+    max-width: 199rem;
 }
 
 header {
@@ -35,7 +36,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    width: 100vw;
+    max-width: 199rem;
     background-color: #fff;
 }
 
@@ -403,16 +404,6 @@ hr {
     height: .1rem;
     background-color: #737373;
     opacity: 20%;
-}
-
-.information {
- font-size: 1.5rem;
- color: #737373;
- font-weight: lighter;
- text-align: justify;
- line-height: 1.6rem;
- height: 0;
- opacity: 0;
 }
 
 .active {
@@ -973,7 +964,6 @@ footer {
 
     /* MENU */
     .menu-content {
-        justify-content: center;
         padding: 1rem 3rem;
     }
 
@@ -987,7 +977,6 @@ footer {
 
     /* MENU */
     .menu-content {
-        justify-content: space-between;
         padding: 1rem 3rem;
     }
 
@@ -1048,10 +1037,14 @@ footer {
 
       /* HOME */
 
+      .home-picture {
+        height: 30rem;
+      }
+
       .circle {
         width: 20rem;
         height: 15rem;
-        top: 47rem;
+        top: 37rem;
         padding-right: 5rem;
       }
 
@@ -1064,6 +1057,20 @@ footer {
       .home-tittle b{
         font-size: 3rem;
     }
+
+    .main-post-content {
+        padding: 2rem;
+    }
+
+    .posts-content {
+        max-width: 40rem;
+    }
+
+    .picture-post {
+        max-width: 20rem;
+        right: 0;
+        height: auto;
+}
 
       /* REGISTER */
 
@@ -1080,6 +1087,10 @@ footer {
         background-color: #F0F1F5;
     }
 
+    .section-page {
+        padding: 2rem;
+    }
+
 }
 
 @media (max-width: 1779px) {
@@ -1087,10 +1098,6 @@ footer {
     /* POSTS */
     .posts-content {
         display: flex;
-    }
-
-    .section-page {
-        padding: 5rem;
     }
 
     /* NEWS */
@@ -1108,11 +1115,6 @@ footer {
     .main-post {
         width: 50rem;
     }
-
-    .picture-post {
-        width: 50rem;
-        height: auto;
-}
 
 }
 
@@ -1182,7 +1184,15 @@ footer {
         width: 100vw;
     }
 
+    /* HOME */
+
+.circle {
+    display: none;
+  }
+
 }
+
+
 
 @media (max-width: 680px) {
 
@@ -1197,10 +1207,19 @@ footer {
         top:15rem;
     }
 
+    .logo {
+        width: 20rem;
+        height: 5rem;
+    }
 }
 
 @media (max-width: 450px) {
-    
+
+    .logo {
+        width: 15rem;
+        height: 4rem;
+    }
+
     h2 {
         font-size: 2rem !important;
     }
